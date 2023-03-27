@@ -171,43 +171,43 @@ public class Main {
 
     public static void Trabalho2ExA2(){
         float result = -3;
-        String msg = ConcatenateMessage(2, "A", 1);
+        String msg = ConcatenateMessage(2, "A", 2);
         System.out.println(msg + "Maior ou igual a " + result);
     }
 
     public static void Trabalho2ExA3(){
         float result = 0;
-        String msg = ConcatenateMessage(2, "A", 1);
+        String msg = ConcatenateMessage(2, "A", 3);
         System.out.println(msg + "Menor ou igual a " + result);
     }
 
     public static void Trabalho2ExA4(){
         float result = 22;
-        String msg = ConcatenateMessage(2, "A", 1);
+        String msg = ConcatenateMessage(2, "A", 4);
         System.out.println(msg + "Maior que " + result);
     }
 
     public static void Trabalho2ExA5(){
         float result = 36;
-        String msg = ConcatenateMessage(2, "A", 1);
+        String msg = ConcatenateMessage(2, "A", 5);
         System.out.println(msg + "Menor que " + result + " E maior que 0");
     }
 
     public static void Trabalho2ExA6(){
         float result = 10;
-        String msg = ConcatenateMessage(2, "A", 1);
+        String msg = ConcatenateMessage(2, "A", 6);
         System.out.println(msg + "Maior que " + result + " E menor que 30");
     }
 
     public static void Trabalho2ExA7(){
         float result = 16;
-        String msg = ConcatenateMessage(2, "A", 1);
+        String msg = ConcatenateMessage(2, "A", 7);
         System.out.println(msg + "Menor ou igual a " + result + " E maior ou igual a 0");
     }
 
     public static void Trabalho2ExA8(){
         float result = 7;
-        String msg = ConcatenateMessage(2, "A", 1);
+        String msg = ConcatenateMessage(2, "A", 8);
         System.out.println(msg + "Menor ou igual a " + result + " E maior ou igual a 0");
     }
 
@@ -216,7 +216,7 @@ public class Main {
         float[] result = GetSecondGradeResult(delta, 1, 7);
         float lower = ListHelper.GetMost(result, "HIGH");
         float higher = ListHelper.GetMost(result, "LOW");
-        String msg = ConcatenateMessage(2, "A", 1);
+        String msg = ConcatenateMessage(2, "A", 9);
         System.out.println(msg + "entre " + lower + " e " + higher);
     }
 
@@ -261,7 +261,7 @@ public class Main {
     }
 
     public static void Trabalho3Ex2(){
-        System.out.println("\n Exercicio: 2");
+        System.out.println("\nExercicio: 2");
         List<List<Integer>> conjuntos = new ArrayList<>();
         conjuntos.add(ListHelper.CreateIntArray(1, 19, false, false));
         conjuntos.add(ListHelper.CreateIntArray(6, 24, false, false));
@@ -276,15 +276,15 @@ public class Main {
     }
 
     public static void Trabalho3Ex4(){
-        System.out.println("\n Exercicio: 4, Resposta: " + 55);
+        System.out.println("Exercicio: 4, Resposta: " + 55);
     }
 
     public static void Trabalho3Ex5() {
-        System.out.println("\n Exercicio: 5, Resposta: " + 96);
+        System.out.println("Exercicio: 5, Resposta: " + 96);
     }
 
     public static void Trabalho3Ex6(){
-        System.out.println("\n Exercicio: 6");
+        System.out.println("\nExercicio: 6");
 
         var total = 300;
         var a = 15;
@@ -312,7 +312,7 @@ public class Main {
     }
 
     public static void Trabalho3Ex7() {
-        System.out.println("\n Exercicio: 7");
+        System.out.println("\nExercicio: 7");
         var total = 500;
         var gostamDeAlgo = total - 120;
         var ab = 90;
